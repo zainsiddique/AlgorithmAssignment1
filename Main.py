@@ -21,8 +21,8 @@ def merge_sort(arr):
                 j += 1
             k += 1
             print("Swap occurred:", arr)
-            winsound.Beep(1000, 500)  # Beep at 1000 Hz for 500 ms
-            time.sleep(0.5)  # Pause for half a second to visualize the sorting process
+            winsound.Beep(1000, 600)  
+            time.sleep(0.5) 
 
         while i < len(L):
             arr[k] = L[i]
